@@ -1,8 +1,10 @@
-Download the jar file (dotty-challange-v1.jar) located in the project's root folder
+Faça o download do jar (dotty-challange-v1.jar) localizado na pasta raíz do projeto.
 
+Uso: java -jar dotty-challange-v1.jar <start> <end> <month_interval1> <month_interval2> ... <month_intervalN>
+ <start>           : Data de início (format: yyyy-MM-dd HH:mm:ss)
+ <end>             : Data final (format: yyyy-MM-dd HH:mm:ss)
+ <month_intervalN> : Intervalo de meses (format X-Y or >Z. Example: 1-3, >12)
+ Example           : dotty-challange-v1.jar.jar "2020-01-01 12:00:00" "2021-01-01 12:00:00" "1-6" "7-8" ">9"
 
-Usage: java -jar dotty-challange-v1.jar <start> <end> <month_interval1> <month_interval2> ... <month_intervalN>
- <start>           : Start date (format: yyyy-MM-dd HH:mm:ss)
- <end>             : Start date (format: yyyy-MM-dd HH:mm:ss)
- <month_intervalN> : Month interval (format X-Y or >Z. Example: 1-3, >12)
- Example           : orders.jar "2020-01-01 12:00:00" "2021-01-01 12:00:00" "1-6" "7-12"
+ATENÇÃO: os dados utilizados na execução do JAR são aleatórios, ou seja, mudam a cada execução (pois são gerados automaticamente e em grande quantidade). 
+Somente nos códigos de teste dados fixos são utilizados.
