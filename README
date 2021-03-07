@@ -9,5 +9,5 @@ Uso: java -jar dotty-challange-v1.jar <start> <end> <month_interval1> <month_int
 ATENÇÃO: os dados utilizados na execução do JAR são aleatórios, ou seja, mudam a cada execução (pois são gerados automaticamente e em grande quantidade). 
 Somente nos códigos de teste dados fixos são utilizados.
 
-Nota sobre concorrência/paralelismo: não encontrei muito pontos, nos requisitos deste exercício, justificassem o uso de Futures ou qualquer de outro mecanismo semelhante. Na verdade, apenas
-um lugar do código justificou o uso de ParallelCollections.
+Nota sobre concorrência/paralelismo: não encontrei muito pontos, nos requisitos deste exercício, que justificassem o uso de Futures ou de qualquer outro mecanismo semelhante. 
+Na verdade, apenas um lugar do código justificou o uso de ParallelCollections.
