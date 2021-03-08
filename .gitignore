@@ -4,12 +4,10 @@
 *.db
 *.idx
 *.iml
-*.jar
 *.tar
 *.versionsBackup
 build
 core
-project
 dependency-reduced-pom.xml
 nbproject/
 target/
